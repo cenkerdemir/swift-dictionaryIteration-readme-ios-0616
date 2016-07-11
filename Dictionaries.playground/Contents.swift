@@ -26,7 +26,6 @@ for (airportCode, airportName) in airports {
 
 
 
-
 let toyStoryFilms = [
     "Toy Story",
     "Toy Story 2",
@@ -69,4 +68,7 @@ let movies = [
 
 for (franchise, titles) in movies {
     print("There are \(titles.count) movies in the \(franchise) series")
+    for movies in titles {
+        print("   \(movies)")
+    }
 }
